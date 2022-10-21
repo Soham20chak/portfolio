@@ -3,6 +3,7 @@ import Layout from './components/Layout'
 import Homepage from './components/Homepage'
 
 
+
 import './App.scss'
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-        <Route index element={<Homepage />} />
+        <Route index element={<Homepage />}/>
+
+        
           
         </Route>
       </Routes>
